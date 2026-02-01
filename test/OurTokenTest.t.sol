@@ -17,7 +17,6 @@ contract OurTokenTest is Test {
     function setUp() public {
         deployer = new DeployOurToken();
 
-      
         ourToken = deployer.runLocal();
 
         ourToken.transfer(sunny, INITIAL_SUPPLY);

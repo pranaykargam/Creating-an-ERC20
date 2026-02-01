@@ -28,5 +28,4 @@ contract DeployOurToken is Script {
         ot.transfer(msg.sender, INITIAL_SUPPLY);
         return ot;
     }
-
 }
