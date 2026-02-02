@@ -37,6 +37,7 @@
 # ❄️ Anatomy of an ERC-20 Token 
 
 * `totalSupply()`: Returns the total supply of the token.
+<<<<<<< HEAD
 
 * `balanceOf(address)`:  Provides the balance of tokens held by a specific address.
 
@@ -53,3 +54,22 @@
 * `symbol()`: Provides the token’s symbol, like “UNI.”
 
 * `decimals()`: Indicates the number of decimal places the token can be divided into, typically 18 for most tokens.
+=======
+
+* `balanceOf(address)`:  Provides the balance of tokens held by a specific address.
+
+* `transfer`  (address, uint256): Transfers a specified amount of tokens from the sender’s address to the specified recipient’s address.
+
+* `transferFrom(address, address, uint256)` : Enables a third party to transfer tokens on behalf of the token owner, given that the owner has approved the transaction.
+
+* `approve(address, uint256) `: Allows the token owner to grant permission to a third party to spend a specified amount of tokens on their behalf.
+
+* `allowance(address, address)`:  Returns the amount of tokens the token owner has allowed a third party to spend on their behalf.
+
+* `name() `: Returns the name of the token, for example, “Uniswap.”
+
+* `symbol()`: Provides the token’s symbol, like “UNI.”
+
+* `decimals()`: Indicates the number of decimal places the token can be divided into, typically 18 for most tokens.
+
+>>>>>>> b61169c23b2d559b57ed50845f07d7da755ffed8
